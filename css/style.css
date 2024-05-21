@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+}
+.wrapper{
+    max-width: 1170px;
+    margin: auto;
+}
+/* Header Section Start */
+.main_header{
+    background-color: #FFF0E3;
+    padding: 30px 0;
+}
+.header_wrapper{
+    max-width: 1250px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    padding: 15px 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+ul li{
+    border-right: 1px solid #ddd
+}
+ul li a{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #1E1C1A;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 10px;
+}
+.header_logo img{
+    width: 85px;
+}
+/* Header Section End */
+
+/* Hero Section Start */
+.hero{
+    background-color: #FFF0E3;
+    padding: 50px 0 0 0;
+    margin-bottom: 30px;
+}
+.hero h1{
+    color: #1E1C1A;
+    font-weight: 400;
+    font-size: 60px;
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    line-height: 82px;
+}
+.hero_shape{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero_shapeIcon{
+    width: 50px;
+    margin-top: -30px;
+   
+}
+.hero_btn a{
+    background-color: #D99655;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+}
+.hero_btn a:hover{
+    background-color: #d99755c0;
+}
+.shoes{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.shoes img{
+    transition: .5s;
+}
+.shoes img:hover{
+    transform: translate(-1%, -1%);
+    
+}
+/* Hero Section End */
+/* Collection Products Section Start */
+.collection{
+    padding: 60px 0;
+}
+.collection_title h2{
+    color: #1E1C1A;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 400;
+}
+.collection_title p{
+    color: #504C48;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+}
+.collection_product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.collection_product img{
+    transition: 0.5s;
+    
+}
+.collection_product img:hover{
+    transform: scale(0.9);
+
+}
+/* Collection Products Section End */
+
+/* New Arrive Products Section Start */
+.arrive{
+    padding: 60px 0;
+}
+.arrive_title h2{
+    color: #1E1C1A;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 400;
+}
+.arrive_title p{
+    color: #504C48;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Plus Jakarta Sans;
+}
+.arrive_products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.product_price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 40px;
+}
+.product_price_title h3{
+    color: #1E1C1A;
+    font-size: 27px;
+    line-height: 40px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+}
+.product_price_title h4{
+    color: #1E1C1A;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: Plus Jakarta Sans;
+}
+.product_card img{
+    background-color: #F5E3D9;
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.border-b{
+    border-bottom: 1px solid #000;
+}
+/* New Arrive Products Section End */
+
+/* Time Offer Section Start */
+.time_offers{
+    background-color: #1E1C1A;
+    color: #fff;
+    padding-top: 50px;
+}
+.timeOffer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time_offer_heading h4{
+    color: #FFF0E3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.time_offer_heading h2{
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.time_offer_heading h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.time_offer_btn a{
+    background-color: #D99655;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+}
+.time_offer_btn a:hover{
+    background-color: #d99755c0;
+}
+.time_offer_product{
+    display: grid;
+    justify-content: space-around;
+    align-items: flex-end;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 80px;
+    gap: 20px;
+}
+.full_width{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/* Time Offer Section End */
+/* Branding Section Start */
+.branding{
+    padding-bottom: 50px;
+}
+.branding_title{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 50px 0;
+    align-items: center;
+}
+.branding_title h2{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #1E1C1A;
+}
+.branding_title p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #504C48;
+    font-family: Plus Jakarta Sans;
+}
+.branding_title_icon i{
+    font-size: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: #1E1C1A;
+}
+.branding_title_icon .first_icon{
+    color: #ddd;
+}
+.branding_logo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.branding_logo img{
+    width: 220px;
+    margin: auto;
+}
+/* Branding Section End */
+/* Blog Section Start */
+.blog{
+    background-color: #FFF0E3;
+    padding: 60px 0;
+}
+.blog_post h2{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #1E1C1A;
+}
+.blog_post p{
+    width: 850px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #504C48;
+    font-family: Plus Jakarta Sans;
+}
+.blog_post a{
+    background-color: #D99655;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 1s;
+}
+.blog_post a:hover{
+    background-color: #d99755c0;
+}
+.blog_img .blog_single_img{
+    margin-left: 20px;
+    border-radius: 0 0 0 10px;
+}
+/* Blog Section End */
+/* Video Section Start */
+.video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.video_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.video h2{
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #1E1C1A;
+}
+.video i{
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    line-height: 0px;
+    background-color: #FFF0E3;
+    border-radius: 50%;
+    width: 16px;
+    color: #1E1C1A;
+}
+/* Video Section End */
+/* Instagram Section Start */
+.instagram{
+    padding-bottom: 50px;
+}
+.instagram_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.instagram_title h2{
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #1E1C1A;
+}
+.instagram_id h3{
+    color: #504c48a8;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.instagram_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.instagram_img img{
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+}
+/* Instagram Section End */
+/* Privacy Section Start */
+.privacy{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0 20px 0;
+}
+.privacy img{
+    margin-bottom: 10px;
+}
+.privacy p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 600px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.privacy_tearms a{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fffdf967 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Privacy Section End */
+/* Address Section Start */
+.address{
+    background-color: #000;
+    padding: 60px 0;
+}
+.address_text{
+    width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.address_text p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+width: 170px;
+}
+.address_text h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 52px;
+text-align: left;
+width: 550px;
+}
+.for_border{
+    border-bottom: 1px solid #b4b4b4;
+    padding-bottom: 60px;
+    
+
+}
+/* Address Section Start */
+/* Footer Section Start */
+.footer_section{
+    background-color: #000;
+    padding: 20px;
+    border-top: 1px solid #b4b4b4;
+}
+.footer_section p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+/* Footer Section End */
+
